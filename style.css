@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.socialmedia {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  /* justify-content: space-between; */
+
+  align-items: center;
+  gap: 3px;
+}
+.socialmedia i {
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.contact_info {
+  text-decoration: none;
+  color: white;
+  border-left: 1px solid grey;
+  padding-left: 15px;
+  font-size: 15px;
+  padding-top: 10px;
+  height: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+.navbar_logo img {
+  height: 65px;
+  width: 200px;
+  margin-left: 15px;
+}
+.navbar_sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 27px;
+}
+.navbar_sections h3:hover {
+  background-color: #ffcc01;
+  cursor: pointer;
+  transform: scale(1.2);
+  padding: 4px;
+}
+
+.navbar_contactno {
+  background-color: #ffcc01;
+  margin-right: 20px;
+  padding-left: 35px;
+  padding-top: 10px;
+  width: 180px;
+  height: 35px;
+}
+.navbar_contactno:hover {
+  color: antiquewhite;
+  background-color: rgb(80, 77, 77);
+  cursor: pointer;
+}
+/* Packages */
+/* 
+.img1:hover{
+    transform: scale(1.1);  
+}
+.img2:hover{
+    transform: scale(1.1);  
+} */
+
+.packages img:hover {
+  transform: scale(1.02);
+}
+.packages {
+  margin-left: 70px;
+  margin-top: 30px;
+  /* position: relative;
+    left:30px; */
+  /* flex-wrap: wrap; */
+}
+
+.packages img {
+  /* padding: 7px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 1px solid rgb(223, 195, 195);
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2px;
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  color: #4d4a4a;
+}
+.about img {
+  width: 97px;
+  height: 120px;
+  margin: 10px;
+}
+.about div {
+  /* border:1px solid ; */
+  height: 280px;
+  width: 300px;
+}
+.about p {
+  color: gray;
+  margin-top: 5px;
+  padding: 8px;
+}
+.award img {
+  /* background-image: url(images/GT-Holidays-Travel-Company-in-South-India.jpeg); */
+  height: 520px;
+  width: 100%;
+}
+.locations {
+  height: 450px;
+  background-color: #1C1C1C;
+  color: #BDBDBD;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  gap:100px;
+
+}
+.box1 div{
+    width:250px;
+    margin: 10px;
+}
+.box1 h2{
+    margin: 30px;
+
+}
+.box1 p{
+    padding: 10px;
+   
+    margin-top: 20px;
+
+}
+ul li{
+    padding-top:5px;list-style: none;
+}
+
+.places{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2{
+    display: flex;
+justify-content: space-evenly;
+/* gap:100px; */
+margin-top: 20px;
+
+}
+.box2 div{
+    border-left: 2px solid  #BDBDBD;
+    padding-left:15px;
+}
+footer {
+  display: flex;
+  height: 70px;
+  border: #4d4a4a solid;
+}
+
+footer p {
+  margin-left: 60px;
+  margin-top: 22px;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+}
+.whatsapp:hover {
+  cursor: pointer;
+}
+/* .whatsapp i{
+    width:200px;
+height:200px;
+} */
+.enquiry {
+  background-color: #ffcc01;
+  height: 40px;
+  width: 220px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: #caaf40;
+}
+.enquiry h3 {
+  padding: 10px;
+  text-align: center;
+}
+.enquiry:hover {
+  color: antiquewhite;
+  background-color: rgb(80, 77, 77);
+  cursor: pointer;
+}
+.aboutGT {
+  margin: 50px;
+}
+.aboutGT p {
+  margin-top: 20px;
+  padding: 5px;
+  color: #4d4a4a;
+}
+.aboutGT h2 {
+  font-size: 32px;
+}
